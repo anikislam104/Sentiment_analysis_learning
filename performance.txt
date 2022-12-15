@@ -1,0 +1,46 @@
+
+
+========== Performance Table for Unigram feature:========
+   Accuracy  Precision  Recall  F1 Score  Model Name
+0     50.46      42.75   26.39     24.47          LR
+1     46.33      31.99   28.75     29.22          DT
+2     50.46      42.45   26.57     25.68          RF
+3     51.38      36.15   30.79     30.82         MNB
+4     49.54      36.92   27.65     27.90         KNN
+5     47.25      29.40   20.39     13.56  Linear SVM
+6     48.17      22.86   21.37     15.67     RBF SVM
+========In case of Unigram feature:========
+Highest Accuracy achieved by MNB at = 51.38
+Highest F1-Score achieved by MNB at = 30.819999999999997
+Highest Precision Score achieved by LR at = 42.75
+Highest Recall Score achieved by MNB at = 30.79
+
+========== Performance Table for Bigram feature:========
+   Accuracy  Precision  Recall  F1 Score  Model Name
+0     50.46      40.95   24.24     20.69          LR
+1     49.54      40.23   33.58     35.13          DT
+2     52.75      62.84   26.84     25.33          RF
+3     53.67      44.40   31.64     32.07         MNB
+4     50.00      35.09   27.99     27.90         KNN
+5     46.79       9.36   20.00     12.75  Linear SVM
+6     46.79       9.40   20.00     12.79     RBF SVM
+========In case of Bigram feature:========
+Highest Accuracy achieved by MNB at = 53.669999999999995
+Highest F1-Score achieved by DT at = 35.13
+Highest Precision Score achieved by RF at = 62.839999999999996
+Highest Recall Score achieved by DT at = 33.58
+
+========== Performance Table for Trigram feature:========
+   Accuracy  Precision  Recall  F1 Score  Model Name
+0     49.08      20.42   22.55     17.83          LR
+1     48.62      37.65   33.45     34.60          DT
+2     52.29      63.85   25.93     23.70          RF
+3     52.29      44.69   29.37     28.81         MNB
+4     50.46      35.75   28.18     28.13         KNN
+5     46.79       9.36   20.00     12.75  Linear SVM
+6     46.79       9.40   20.00     12.79     RBF SVM
+========In case of Trigram feature:========
+Highest Accuracy achieved by RF at = 52.290000000000006
+Highest F1-Score achieved by DT at = 34.599999999999994
+Highest Precision Score achieved by RF at = 63.849999999999994
+Highest Recall Score achieved by DT at = 33.45

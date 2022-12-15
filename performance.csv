@@ -1,0 +1,49 @@
+Number of comments in dataset: 1551
+
+Number of Label in the dataset: 5
+
+
+========== Performance Table for Unigram feature:========
+   Accuracy  Precision  Recall  F1 Score  Model Name
+0     54.49      50.41   33.51     33.44          LR
+1     56.41      49.89   40.61     42.41          DT
+2     56.41      53.20   33.39     34.16          RF
+3     58.33      45.69   39.98     39.47         MNB
+4     48.08      29.61   20.67     14.27         KNN
+5     47.44       9.49   20.00     12.87  Linear SVM
+6     50.64      63.20   23.94     20.52     RBF SVM
+========In case of Unigram feature:========
+Highest Accuracy achieved by MNB at = 58.330000000000005
+Highest F1-Score achieved by DT at = 42.41
+Highest Precision Score achieved by RBF SVM at = 63.2
+Highest Recall Score achieved by DT at = 40.61
+
+========== Performance Table for Bigram feature:========
+   Accuracy  Precision  Recall  F1 Score  Model Name
+0     54.49      58.85   30.37     29.91          LR
+1     53.85      48.70   39.04     40.91          DT
+2     53.85      59.67   29.67     30.08          RF
+3     57.05      47.03   38.99     39.15         MNB
+4     47.44       9.55   20.00     12.93         KNN
+5     47.44       9.49   20.00     12.87  Linear SVM
+6     47.44       9.55   20.00     12.93     RBF SVM
+========In case of Bigram feature:========
+Highest Accuracy achieved by MNB at = 57.05
+Highest F1-Score achieved by DT at = 40.910000000000004
+Highest Precision Score achieved by RF at = 59.67
+Highest Recall Score achieved by DT at = 39.04
+
+========== Performance Table for Trigram feature:========
+   Accuracy  Precision  Recall  F1 Score  Model Name
+0     51.92      39.69   25.79     22.53          LR
+1     54.49      58.42   39.31     41.39          DT
+2     51.28      58.41   26.33     25.07          RF
+3     55.13      45.49   35.08     35.31         MNB
+4     47.44       9.55   20.00     12.93         KNN
+5     47.44       9.49   20.00     12.87  Linear SVM
+6     47.44       9.55   20.00     12.93     RBF SVM
+========In case of Trigram feature:========
+Highest Accuracy achieved by MNB at = 55.13
+Highest F1-Score achieved by DT at = 41.39
+Highest Precision Score achieved by DT at = 58.42
+Highest Recall Score achieved by DT at = 39.31
